@@ -26,7 +26,7 @@ const cache = new InMemoryCache({
 
 const Client = new ApolloClient({
   // uri: "http://localhost:5000/graphql",
-  // uri: "https://graphql-react-app.herokuapp.com/graphql",
+  uri: "https://graphql-react-app.herokuapp.com/graphql",
   cache
 });
 
